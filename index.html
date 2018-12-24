@@ -3,8 +3,8 @@
 <head>
 <style>
 
-.blue-text {
-	color: blue;
+.black-text {
+	color: black;
 }
 
 
@@ -16,9 +16,9 @@
 	color: green;
 }
 
-div {
+.graydient {
 	border-radius: 50px;
-	height: 600px;
+	height: 300px;
 	width: 300px;
 	background: linear-gradient(45deg, black, white, gray);
 	margin: auto;
@@ -28,19 +28,42 @@ p{
 	margin: 100px;
 	font-size: 25px;
 }
+
+h1 {
+	margin-top: 100px;
+}
+
+.repeating-gradient {
+	border: 50px;
+	height: 100%;
+	width: 100%;
+	background: repeating-linear-gradient(
+		270deg,
+		red 0px,
+		blue 1px
+		
+
+		);
+} 
 </style>
 </head>
 
 <html>
 
 
-<body class = "white-bg">
-<h1 class = "blue-text"> Welcome to my GitHub page </h1>
+<body class = "repeating-gradient">
+<h1 class = "black-text"> Welcome to my GitHub page </h1>
  
- <div>
+ <div class = "graydient">
  <p class = "green-text">a.k.a my html/css/js testing ground</p>
 </div>
+
+<p> 
+bottom text
+</p>
  </body>
+
+ 
 </html>
 
 
